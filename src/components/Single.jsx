@@ -3,7 +3,7 @@ import React from "react";
 export const Single = ({ data }) => {
   return (
     <div className="flex  flex-col bg-white shadow-xl w-[90%] m-auto mt-14 rounded-2xl py-6  flex-wrap gap-20 px-6">
-      <div className=" rounded-full w-40 h-40  bg-white bg-[url('logo.png')]  bg-cover bg-center flex justify-center items-center">
+      <div className=" rounded-full w-40 h-40  bg-white from-[#ff000096] to-slate-950 via-[blue] bg-gradient-to-t  bg-cover bg-center flex justify-center items-center">
         <img src={data?.profile} className="rounded-full" />
       </div>
       <div className="flex flex-col gap-4 font-thin capitalize">
