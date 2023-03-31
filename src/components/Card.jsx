@@ -10,7 +10,7 @@ export const Card = ({ data, setSingleData }) => {
         setSingleData(data);
         navigate("/single");
       }}
-      className="relative cursor-pointer bg-[#0000ff9d]  from-[#000000dd] bg-cover bg-center bg-[url('logo.png')] shadow-lg grid h-[20rem] mt-6 w-full max-w-[16rem] flex-col items-end justify-center overflow-hidden rounded-lg bg-white bg-clip-border text-center text-gray-700"
+      className="relative cursor-pointer bg-[#0000ff9d] bg-cover bg-center bg-[url('logo.png')] shadow-lg grid h-[20rem] mt-6 w-full max-w-[16rem] flex-col items-end justify-center overflow-hidden rounded-lg bg-white bg-clip-border text-center text-gray-700"
     >
       <div
         className="absolute inset-0 m-0 h-full w-full overflow-hidden transition duration-300 ease-in-out hover:scale-110 rounded-none bg-transparent  bg-cover bg-clip-border bg-center text-gray-700 shadow-none"
