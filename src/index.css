@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: url("https://media.istockphoto.com/id/1156102065/vector/abstract-glowing-neon-colored-soccer-ball-over-blue-background.jpg?s=612x612&w=0&k=20&c=ts9kE2_piLxxce1mUpyVRiqT9y7PgrKeNLcshwFNnCg=");
+}
